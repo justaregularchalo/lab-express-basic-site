@@ -53,6 +53,54 @@ h3 {
   
 }
 
+#título-trabajos{
+
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+#lista-trabajos{
+
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+
+#lista-trabajos h2{
+
+    color: rgb(196, 199, 54);
+    padding-bottom: 15px;
+
+}
+
+
+#lista-trabajos p{
+
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+#titulo-galeria{
+
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+#fotografo,#stark,#avenger{
+
+        margin-left: 25%;
+        padding-bottom: 50px;
+}
+
 nav {
   display: flex;
   justify-content: space-evenly;
