@@ -3,16 +3,54 @@
 body {
   background-image: url("/images/background.jpg");
   font-family: "Bebas Neue", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h1 {
+#title {
   text-align: center;
   color: white;
   font-size: 150px;
+  margin-bottom: 30px;
+  
 }
-p {
+#about{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#info {
   color: white;
   text-align: center;
+  font-weight: lighter;
+}
+
+#img{
+display: flex;
+justify-content: center;
+
+}
+
+h3 {
+  color: rgb(196, 199, 54);
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+}
+#subtitle {
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+#contacto{
+  display: flex;
+  justify-content: center;
+  color: rgb(196, 199, 54);
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 100px;
+  
 }
 
 nav {
