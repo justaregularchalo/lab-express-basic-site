@@ -1,22 +1,26 @@
+const express = require("express");
+const app = express();
 
-const express = require('express')
-const app = express()
-const port = 3000
+app.use(express.static("public"));
 
+app.get("/home", (req, res) => {
+  res.sendFile(__dirname + "/views/home.html");
+});
 
+app.get("/about", (req, res) => {
+  res.sendFile(__dirname + "/views/about.html");
+});
 
+app.get("/works", (req, res) => {
+  res.sendFile(__dirname + "/views/works.html");
+});
 
+app.get("*", (req, res) => {
+  res.send("Error 404 - Me quedé sin telaraña");
+});
 
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-
-
-
-
+const port = 3000;
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+  console.log(`Example app listening on port ${port}`);
+});

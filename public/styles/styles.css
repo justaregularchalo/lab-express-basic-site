@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Play:wght@400;700&family=Righteous&family=Roboto:wght@900&display=swap");
+
+body {
+  background-image: url("/images/background.jpg");
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 150px;
+}
+p {
+  color: white;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
